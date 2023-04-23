@@ -1,0 +1,271 @@
+[ {
+  "id" : 1,
+  "name" : null,
+  "ra" : "00:05:09.90",
+  "dec" : "+45:13:45.00",
+  "epoch" : 2000,
+  "mag" : "6.70",
+  "type_spectral" : "A1Vn",
+  "starNames" : [ ]
+}, {
+  "id" : 2,
+  "name" : null,
+  "ra" : "00:05:03.80",
+  "dec" : "-00:30:11.00",
+  "epoch" : 2000,
+  "mag" : "6.29",
+  "type_spectral" : "gG9",
+  "starNames" : [ ]
+}, {
+  "id" : 3,
+  "name" : null,
+  "ra" : "00:05:20.10",
+  "dec" : "-05:42:27.00",
+  "epoch" : 2000,
+  "mag" : "4.61",
+  "type_spectral" : "K0III",
+  "starNames" : [ ]
+}, {
+  "id" : 4,
+  "name" : null,
+  "ra" : "00:05:42.00",
+  "dec" : "+13:23:46.00",
+  "epoch" : 2000,
+  "mag" : "5.51",
+  "type_spectral" : "G5III",
+  "starNames" : [ ]
+}, {
+  "id" : 5,
+  "name" : null,
+  "ra" : "00:06:16.00",
+  "dec" : "+58:26:12.00",
+  "epoch" : 2000,
+  "mag" : "5.96",
+  "type_spectral" : "G5V",
+  "starNames" : [ ]
+}, {
+  "id" : 6,
+  "name" : null,
+  "ra" : "00:06:19.00",
+  "dec" : "-49:04:30.00",
+  "epoch" : 2000,
+  "mag" : "5.70",
+  "type_spectral" : "G1IV",
+  "starNames" : [ ]
+}, {
+  "id" : 7,
+  "name" : null,
+  "ra" : "00:06:26.50",
+  "dec" : "+64:11:46.00",
+  "epoch" : 2000,
+  "mag" : "5.59",
+  "type_spectral" : "B9III",
+  "starNames" : [ "HR0007" ]
+}, {
+  "id" : 8,
+  "name" : null,
+  "ra" : "00:06:36.80",
+  "dec" : "+29:01:17.00",
+  "epoch" : 2000,
+  "mag" : "6.13",
+  "type_spectral" : "K0V",
+  "starNames" : [ ]
+}, {
+  "id" : 9,
+  "name" : null,
+  "ra" : "00:06:50.10",
+  "dec" : "-23:06:27.00",
+  "epoch" : 2000,
+  "mag" : "6.18",
+  "type_spectral" : "A7V",
+  "starNames" : [ ]
+}, {
+  "id" : 10,
+  "name" : null,
+  "ra" : "00:07:18.20",
+  "dec" : "-17:23:11.00",
+  "epoch" : 2000,
+  "mag" : "6.19",
+  "type_spectral" : "A6Vn",
+  "starNames" : [ ]
+}, {
+  "id" : 11,
+  "name" : null,
+  "ra" : "00:07:44.10",
+  "dec" : "-02:32:56.00",
+  "epoch" : 2000,
+  "mag" : "6.43",
+  "type_spectral" : "B8III",
+  "starNames" : [ ]
+}, {
+  "id" : 12,
+  "name" : null,
+  "ra" : "00:07:46.80",
+  "dec" : "-22:30:32.00",
+  "epoch" : 2000,
+  "mag" : "5.94",
+  "type_spectral" : "A2Vp:",
+  "starNames" : [ ]
+}, {
+  "id" : 13,
+  "name" : null,
+  "ra" : "00:08:03.50",
+  "dec" : "-33:31:46.00",
+  "epoch" : 2000,
+  "mag" : "5.68",
+  "type_spectral" : "K1III",
+  "starNames" : [ ]
+}, {
+  "id" : 14,
+  "name" : null,
+  "ra" : "00:08:12.10",
+  "dec" : "-02:26:52.00",
+  "epoch" : 2000,
+  "mag" : "6.07",
+  "type_spectral" : "K2III",
+  "starNames" : [ ]
+}, {
+  "id" : 15,
+  "name" : null,
+  "ra" : "00:08:23.30",
+  "dec" : "+29:05:26.00",
+  "epoch" : 2000,
+  "mag" : "2.06",
+  "type_spectral" : "B8IVp",
+  "starNames" : [ ]
+}, {
+  "id" : 16,
+  "name" : null,
+  "ra" : "00:08:17.40",
+  "dec" : "-08:49:26.00",
+  "epoch" : 2000,
+  "mag" : "5.99",
+  "type_spectral" : "gG8",
+  "starNames" : [ ]
+}, {
+  "id" : 17,
+  "name" : null,
+  "ra" : "00:08:41.00",
+  "dec" : "+36:37:36.00",
+  "epoch" : 2000,
+  "mag" : "6.19",
+  "type_spectral" : "F8IV",
+  "starNames" : [ ]
+}, {
+  "id" : 18,
+  "name" : null,
+  "ra" : "00:08:33.40",
+  "dec" : "-17:34:39.00",
+  "epoch" : 2000,
+  "mag" : "6.06",
+  "type_spectral" : "M0III",
+  "starNames" : [ ]
+}, {
+  "id" : 19,
+  "name" : null,
+  "ra" : "00:08:52.20",
+  "dec" : "+25:27:46.00",
+  "epoch" : 2000,
+  "mag" : "6.23",
+  "type_spectral" : "K0III",
+  "starNames" : [ ]
+}, {
+  "id" : 20,
+  "name" : null,
+  "ra" : "00:09:20.20",
+  "dec" : "+79:42:53.00",
+  "epoch" : 2000,
+  "mag" : "6.01",
+  "type_spectral" : "A7IV",
+  "starNames" : [ ]
+}, {
+  "id" : 21,
+  "name" : null,
+  "ra" : "00:09:10.70",
+  "dec" : "+59:08:59.00",
+  "epoch" : 2000,
+  "mag" : "2.27",
+  "type_spectral" : "F2III",
+  "starNames" : [ ]
+}, {
+  "id" : 22,
+  "name" : null,
+  "ra" : "00:09:02.40",
+  "dec" : "+18:12:43.00",
+  "epoch" : 2000,
+  "mag" : "5.53",
+  "type_spectral" : "G9III",
+  "starNames" : [ ]
+}, {
+  "id" : 23,
+  "name" : null,
+  "ra" : "00:09:02.40",
+  "dec" : "-54:00:07.00",
+  "epoch" : 2000,
+  "mag" : "6.33",
+  "type_spectral" : "G4IV",
+  "starNames" : [ ]
+}, {
+  "id" : 24,
+  "name" : null,
+  "ra" : "00:09:21.00",
+  "dec" : "-27:59:16.00",
+  "epoch" : 2000,
+  "mag" : "5.42",
+  "type_spectral" : "F2V",
+  "starNames" : [ ]
+}, {
+  "id" : 25,
+  "name" : null,
+  "ra" : "00:09:24.70",
+  "dec" : "-45:44:51.00",
+  "epoch" : 2000,
+  "mag" : "3.88",
+  "type_spectral" : "K0III",
+  "starNames" : [ ]
+}, {
+  "id" : 26,
+  "name" : null,
+  "ra" : "00:10:02.30",
+  "dec" : "+11:08:44.00",
+  "epoch" : 2000,
+  "mag" : "5.51",
+  "type_spectral" : "B9Vn",
+  "starNames" : [ "HR0026" ]
+}, {
+  "id" : 27,
+  "name" : null,
+  "ra" : "00:10:19.30",
+  "dec" : "+46:04:20.00",
+  "epoch" : 2000,
+  "mag" : "5.03",
+  "type_spectral" : "F2II",
+  "starNames" : [ ]
+}, {
+  "id" : 28,
+  "name" : null,
+  "ra" : "00:10:29.70",
+  "dec" : "+57:09:56.00",
+  "epoch" : 2000,
+  "mag" : "6.74",
+  "type_spectral" : "B7IV",
+  "starNames" : [ ]
+}, {
+  "id" : 29,
+  "name" : null,
+  "ra" : "00:10:18.80",
+  "dec" : "-05:14:55.00",
+  "epoch" : 2000,
+  "mag" : "5.84",
+  "type_spectral" : "K1III",
+  "starNames" : [ ]
+}, {
+  "id" : 30,
+  "name" : null,
+  "ra" : "00:10:02.10",
+  "dec" : "-82:13:26.00",
+  "epoch" : 2000,
+  "mag" : "5.28",
+  "type_spectral" : "G8III",
+  "starNames" : [ ]
+}]

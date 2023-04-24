@@ -17,7 +17,6 @@ export default {
 
 <style>
 #planet {
-  background-image: url("src/assets/milky-way.jpeg");
   padding: 5%;
 }
 </style>

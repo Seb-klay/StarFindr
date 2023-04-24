@@ -18,26 +18,28 @@
               <td>{{ star.starNames[0] }}</td>
               <td>{{ star.mag }}</td>
               <td>
-                <!-- <b-button v-on:click="findStar(star)" variant="outline-warning">
+                <b-button v-on:click="findStar(star)" variant="outline-warning">
                   Infos
-                </b-button> -->
-                <button v-on:click="findStar(star)">Infos</button>
+                </b-button>
               </td>
             </tr>
           </tbody>
         </table>
       </div>
       <div v-else>
-        <b-button variant="outline-warning" @click="starChoosen = []"
+        <b-button
+          variant="outline-warning" @click="starChoosen = []"
+          class="back_button"
           >Retour</b-button
         >
         <div id="description">
-          <div>
-            <b-img
+          <div id="star_container">
+            <!-- <b-img
               class="star_image"
               src="https://cdn.spacetelescope.org/archives/images/screen/opo9604b.jpg"
               alt="Star image"
-            ></b-img>
+            ></b-img> -->
+            <star id="star"></star>
           </div>
           <ul class="nobullet">
             <li>
@@ -71,13 +73,14 @@
 
 <script lang="js">
 //import ScatterChart from "@/components/scatterChart";
-import JsonStars from "../assets/stars-short.json";
-import axios from "axios";
+import JsonStars from "../assets/stars-short.json"
+import axios from "axios"
+import Star from "@/components/Star.vue"
 
 export default {
   name: "VisibleStars",
   components: {
-    //ScatterChart,
+    Star
   },
   data() {
     return {
@@ -113,9 +116,8 @@ export default {
       var name = this.starChoosen.starNames[0].split(" ");
       const url = `https://en.wikipedia.org/w/api.php?action=query&format=json&requestid=${name[0]}&prop=extracts&titles=${name[0]}&formatversion=2&exsentences=10&exlimit=1&explaintext=1`
         try {
-          console.log(this.starChoosen)
-        const donnees = await axios.get(url);
-        this.infos = donnees.data.query.pages[0].extract;
+        const donnees = await axios.get(url)
+        this.infos = donnees.data.query.pages[0].extract
       } catch (e) {
           console.error(e);
       }
@@ -164,6 +166,21 @@ export default {
   background: black;
 }
 
+#star_container {
+  display: flex;
+  max-width: 50%;
+  align-items: center;
+  background-color: aliceblue;
+  margin-bottom: 30%;
+}
+
+#star {
+  max-width: 50vw;
+  max-height: 50vh;
+  margin-left: 0;
+  margin-right: 50%;
+}
+
 .nobullet {
   list-style-type: none;
   margin: 5% 10% 5% 10%;
@@ -192,6 +209,10 @@ h2 {
 
 #description {
   font-size: 2.5em;
+}
+
+.back_button {
+  margin-bottom: 10%;
 }
 
 #aladin-lite-div {

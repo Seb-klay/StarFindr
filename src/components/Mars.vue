@@ -12,12 +12,12 @@ export default {
     data: function() {
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(
-            10, 
+            45, 
             window.innerWidth / window.innerHeight, 
             0.1, 
-            1000
+            2000
         );
-        const renderer = new THREE.WebGLRenderer({ antialias: true })
+        const renderer = new THREE.WebGLRenderer({ antialias: true }, { alpha: true })
         
         const controls = new OrbitControls( camera, renderer.domElement )
 
@@ -25,19 +25,11 @@ export default {
         const sphere = new THREE.Mesh(
             new THREE.SphereGeometry(5, 50, 50), 
             new THREE.MeshBasicMaterial({
-                map: new THREE.TextureLoader().load('src/assets/mars_map.jpg')
+                map: new THREE.TextureLoader().load('src/assets/8k_mars.jpg')
             })
         )
 
         const light = new THREE.DirectionalLight('hsl(0, 100%, 100%)')
-        const geometry = new THREE.BoxGeometry(1, 1, 1)
-        const material = new THREE.MeshStandardMaterial({
-            side: THREE.FrontSide,
-            color: 'hsl(0, 100%, 50%)',
-            wireframe: false
-        })
-        const cube = new THREE.Mesh(geometry, material)
-        const axes = new THREE.AxesHelper(5)
 
         return {
             scene: scene,
@@ -45,9 +37,7 @@ export default {
             controls: [],
             renderer: renderer,
             light: light,
-            cube: cube,
             sphere: sphere,
-            axes: axes,
             speed: 0.01
         }
     },
@@ -55,11 +45,11 @@ export default {
         this.scene.add(this.camera)
         this.scene.add(this.light)
         this.scene.add(this.sphere)
-        this.scene.add(this.axes)
         this.renderer.setSize(window.innerWidth, window.innerHeight)
+        this.renderer.setClearColor( 0x000000, 0 )
         this.renderer.setPixelRatio(window.devicePixelRatio)
         this.light.position.set(0, 0, 10)
-        this.camera.position.set(0, 0, 75)
+        this.camera.position.set(0, 0, 15)
         this.scene.background = new THREE.Color(0x000000)
         this.sphere.position.set(0, 0, 0)
         this.controls.rotateSpeed = 1.0
